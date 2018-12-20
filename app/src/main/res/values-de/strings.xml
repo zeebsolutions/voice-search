@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    <string name="title_activity_voice_search">Sprachsuche</string>
+    <string name="speech_not_supported">Sprache wird auf Ihrem Gerät nicht unterstützt</string>
+    <string name="suggestion">Vorschlag</string>
+    <string name="send_to">Wählen Sie, um den App-Link zu teilen</string>
+    <string name="speak_contact_name">Sprechen Sie den Namen des Kontakts</string>
+    <string name="speak_app_name">Sprechen Sie den Namen der App, um z. WhatsApp</string>
+    <string name="google_search">Google-Suche</string>
+    <string name="wiki_how">Search WikiWie z. Wie man schwimmt</string>
+    <string name="wikipedia_search">Wikipedia-Suche, z. Mount Everest</string>
+    <string name="new_search">Nachrichtensuche, z. Syrien</string>
+    <string name="speak_place_name">Sprechen Sie den Namen des Ziels zur Richtung, z. Kalifornien</string>
+    <string name="youtube_search">Youtube-Suche, z. Pewdiepie</string>
+    <string name="twitter">Sprechen Sie den Namen für die Twitter-Suche, z. Jack</string>
+    <string name="facebook">Sprechen Sie den Namen für die Facebook-Suche, z. Kennzeichen</string>
+    <string name="speak_app_name_playstore">Sprechen Sie den Namen der App für die Play Store-Suche, z. Tick Tack</string>
+    <string name="bing">Bing-Suche</string>
+    <string name="yahoo_search">Yahoo-Suche</string>
+    <string name="duck_duck_go_search">DuckDuckGo-Suche</string>
+    <string name="ask_search">Ask-Suche</string>
+    <string name="aol_search">Aol-Suche</string>
+    <string name="reddit_search">Reddit-Suche</string>
+    <string name="dailymotion">Video in dailymotion durchsuchen, z. Lustig</string>
+    <string name="speak_meta_cafe">Video nach Meta-Cafe durchsuchen, z. Abenteuerlich</string>
+</resources>

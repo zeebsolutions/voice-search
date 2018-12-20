@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    <string name="title_activity_voice_search">声音搜索</string>
+    <string name="speech_not_supported">您的设备不支持语音</string>
+    <string name="suggestion">建议</string>
+    <string name="send_to">选择分享应用链接</string>
+    <string name="speak_contact_name">说出联系人的姓名</string>
+    <string name="speak_app_name">说出要打开的应用的名称，例如WhatsApp的</string>
+    <string name="google_search">谷歌搜索</string>
+    <string name="wiki_how">搜索WikiHow，例如 怎么游泳</string>
+    <string name="wikipedia_search">维基百科搜索例如 珠穆朗玛峰</string>
+    <string name="new_search">新闻搜索例如 叙利亚</string>
+    <string name="speak_place_name">说出方向的目的地名称，例如加州</string>
+    <string name="youtube_search">Youtube搜索，例如Pewdiepie</string>
+    <string name="twitter">说出Twitter搜索的名称，例如 插口</string>
+    <string name="facebook">说出Facebook搜索的名称，例如 标记</string>
+    <string name="speak_app_name_playstore">说出Play商店搜索应用的名称，例如 Tik Tok</string>
+    <string name="bing">Bing搜索</string>
+    <string name="yahoo_search">雅虎搜索</string>
+    <string name="duck_duck_go_search">DuckDuckGo搜索</string>
+    <string name="ask_search">询问搜索</string>
+    <string name="aol_search">Aol搜索</string>
+    <string name="reddit_search">Reddit搜索</string>
+    <string name="dailymotion">在dailymotion上搜索视频，例如 滑稽</string>
+    <string name="speak_meta_cafe">在元咖啡馆搜索视频，例如爱冒险的</string>
+</resources>

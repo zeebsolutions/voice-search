@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    <string name="title_activity_voice_search">音声検索</string>
+    <string name="speech_not_supported">あなたのデバイスでは音声がサポートされていません</string>
+    <string name="suggestion">提案</string>
+    <string name="send_to">アプリリンクの共有を選択する</string>
+    <string name="speak_contact_name">連絡先の名前を話す</string>
+    <string name="speak_app_name">アプリの名前を話すなどして開きます。 WhatsApp</string>
+    <string name="google_search">Google検索</string>
+    <string name="wiki_how">たとえば、WikiHowを検索します。 泳ぎ方</string>
+    <string name="wikipedia_search">例：Wikipedia Search エベレスト</string>
+    <string name="new_search">例：ニュース検索 シリア</string>
+    <string name="speak_place_name">目的地の名前を指示します。 カリフォルニア</string>
+    <string name="youtube_search">たとえばYouTube検索 ピューディエピ</string>
+    <string name="twitter">たとえば、ツイッター検索の名前を言う。 ジャック</string>
+    <string name="facebook">例：Facebookの検索のための名前 マーク</string>
+    <string name="speak_app_name_playstore">Playストア検索のアプリの名前を入力します。 チクタク</string>
+    <string name="bing">Bing検索</string>
+    <string name="yahoo_search">Yahoo検索</string>
+    <string name="duck_duck_go_search">DuckDuckGo検索</string>
+    <string name="ask_search">ASK検索</string>
+    <string name="aol_search">Aol検索</string>
+    <string name="reddit_search">Reddit検索</string>
+    <string name="dailymotion">例えば、ビデオをdailymotionで検索する。 面白い</string>
+    <string name="speak_meta_cafe">例えば、メタ・カフェでビデオを検索する。 冒険</string>
+</resources>

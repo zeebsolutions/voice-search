@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    <string name="title_activity_voice_search">음성 검색</string>
+    <string name="speech_not_supported">기기에서 음성이 지원되지 않습니다.</string>
+    <string name="suggestion">암시</string>
+    <string name="send_to">앱 링크 공유를 선택하십시오.</string>
+    <string name="speak_contact_name">연락처 이름 말하기</string>
+    <string name="speak_app_name">예를 들어 앱 이름을 말하면 엽니 다. WhatsApp</string>
+    <string name="google_search">구글 검색</string>
+    <string name="wiki_how">예 : WikiHow 검색 수영하는 법</string>
+    <string name="wikipedia_search">예 : 위키 백과 검색 에베레스트 산</string>
+    <string name="new_search">예 : 뉴스 검색 시리아</string>
+    <string name="speak_place_name">방향의 목적지 이름을 말합니다. 예 : 캘리포니아</string>
+    <string name="youtube_search">예 : YouTube 검색 Pewdiepie</string>
+    <string name="twitter">예 : 트위터 검색의 성명 잭</string>
+    <string name="facebook">예 : 페이스 북 검색을위한 이름 표</string>
+    <string name="speak_app_name_playstore">예 : Play 스토어 검색을 위해 앱 이름을 말합니다. Tik의 톡</string>
+    <string name="bing">빙 검색</string>
+    <string name="yahoo_search">야후 검색</string>
+    <string name="duck_duck_go_search">DuckDuckGo 검색</string>
+    <string name="ask_search">ASK 검색</string>
+    <string name="aol_search">Aol 검색</string>
+    <string name="reddit_search">Reddit검색</string>
+    <string name="dailymotion">예 : dailymotion에서 비디오 검색 이상한</string>
+    <string name="speak_meta_cafe">예 : 메타 카페에서 동영상 검색 모험심</string>
+</resources>

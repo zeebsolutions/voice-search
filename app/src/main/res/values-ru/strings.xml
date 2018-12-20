@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    <string name="title_activity_voice_search">Голосовой поиск</string>
+    <string name="speech_not_supported">Речь не поддерживается на вашем устройстве</string>
+    <string name="suggestion">Предложение</string>
+    <string name="send_to">Выберите, чтобы поделиться ссылкой на приложение</string>
+    <string name="speak_contact_name">Произнесите имя контакта</string>
+    <string name="speak_app_name">Произнесите имя приложения, например, чтобы открыть. WhatsApp</string>
+    <string name="google_search">Поиск Гугл</string>
+    <string name="wiki_how">Поиск WikiHow, например Как плавать</string>
+    <string name="wikipedia_search">Поиск в Википедии, например гора Эверест</string>
+    <string name="new_search">Поиск новостей, например Сирия</string>
+    <string name="speak_place_name">Произнесите название пункта назначения, например, Калифорния</string>
+    <string name="youtube_search">Поиск на YouTube, например PewDiePie</string>
+    <string name="twitter">Произнесите имя для поиска в твиттере, например Джек</string>
+    <string name="facebook">Произнесите имя для поиска в Facebook, например отметка</string>
+    <string name="speak_app_name_playstore">Произнесите название приложения для поиска в Play Store, например, ТИК Так</string>
+    <string name="bing">Bing Search</string>
+    <string name="yahoo_search">Поиск Yahoo</string>
+    <string name="duck_duck_go_search">Поиск DuckDuckGo</string>
+    <string name="ask_search">ASK Поиск</string>
+    <string name="aol_search">"Aol "</string>
+    <string name="reddit_search">"Reddit Поиск "</string>
+    <string name="dailymotion">Поиск видео на dailymotion, например. Смешной</string>
+    <string name="speak_meta_cafe">Поиск видео в мета-кафе, например предприимчивый</string>
+</resources>

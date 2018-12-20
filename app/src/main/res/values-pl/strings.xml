@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    <string name="title_activity_voice_search">Szukanie głosowe</string>
+    <string name="speech_not_supported">Mowa nie jest obsługiwana na Twoim urządzeniu</string>
+    <string name="suggestion">Sugestia</string>
+    <string name="send_to">Wybierz opcję Udostępnij link do aplikacji</string>
+    <string name="speak_contact_name">Wymów nazwę kontaktu</string>
+    <string name="speak_app_name">Powiedz nazwę aplikacji, aby otworzyć np. WhatsApp</string>
+    <string name="google_search">Wyszukiwarka Google</string>
+    <string name="wiki_how">Wyszukaj WikiHow, np. Jak pływać</string>
+    <string name="wikipedia_search">Wyszukiwanie na stronie Wikipedia Mount Everest</string>
+    <string name="new_search">Wyszukiwanie wiadomości, np. Syria</string>
+    <string name="speak_place_name">Powiedz nazwę miejsca docelowego dla kierunku, np. Kalifornia</string>
+    <string name="youtube_search">Wyszukiwarka Youtube np. Pewdiepie</string>
+    <string name="twitter">Wymów nazwę dla wyszukiwania w twitterze np. Jacek</string>
+    <string name="facebook">Wymów nazwę dla wyszukiwania z Facebooka, np. znak</string>
+    <string name="speak_app_name_playstore">Powiedz nazwę aplikacji do wyszukiwania w Sklepie Play, np. TIK Tok</string>
+    <string name="bing">Wyszukiwanie Bing</string>
+    <string name="yahoo_search">Wyszukiwanie Yahoo</string>
+    <string name="duck_duck_go_search">DuckDuckGo Szukaj</string>
+    <string name="ask_search">Wyszukiwanie ASK</string>
+    <string name="aol_search">Wyszukiwanie Aol</string>
+    <string name="reddit_search">Wyszukiwanie Reddit</string>
+    <string name="dailymotion">Wyszukaj wideo w dailymotion np. Śmieszne</string>
+    <string name="speak_meta_cafe">Wyszukaj film w metapiksie np. Ryzykowny</string>
+</resources>

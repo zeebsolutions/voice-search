@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name" translatable="false" >Voice Assistant</string>
+    <string name="title_activity_voice_search">Voice Search</string>
+
+    <string name="call" translatable="false">call</string>
+    <string name="sms" translatable="false">sms</string>
+    <string name="switch_suggestion" translatable="false">Switch Suggestion</string>
+
+    <string name="speech_not_supported">Speech not supported on your device</string>
+
+    <!--<string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="reward" translatable="false">ca-app-pub-3940256099942544/5224354917</string>-->
+
+    <string name="suggestion">Suggestion</string>
+    <string name="send_to">Choose to Share the app lin</string>
+
+    <string name="speak_contact_name">Speak name of the contact</string>
+    <string name="speak_app_name">Speak name of the app to open e.g. WhatsApp</string>
+    <string name="google_search">Google Search</string>
+    <string name="wiki_how" >Search WikiHow e.g. How to swim</string>
+    <string name="wikipedia_search">Wikipedia Search e.g. Mount Everest</string>
+    <string name="speak_place_name">Speak name of destination for direction e.g. California</string>
+    <string name="youtube_search">Youtube Search e.g. Pewdiepie</string>
+    <string name="merriam_webster" translatable="false">Merriam Webster e.g. Exculpate</string>
+    <string name="twitter">Speak name for twitter search e.g. Jack</string>
+    <string name="facebook">Speak name for facebook search e.g. Mark</string>
+    <string name="speak_app_name_playstore">Speak name of the app for Playstore search e.g. Tik Tok</string>
+    <string name="bing">Bing Search</string>
+    <string name="duck_duck_go_search">DuckDuckGo Search</string>
+    <string name="ask_search">Ask Search</string>
+    <string name="aol_search">Aol Search</string>
+    <string name="reddit_search">Reddit Search</string>
+    <string name="dailymotion">Search video on dailymotion e.g. Funny</string>
+    <string name="speak_meta_cafe">Search video on meta cafe e.g. Adventurous</string>
+    <string name="new_search">News Search e.g. Syria</string>
+    <string name="yahoo_search">Yahoo Search</string>
+
+    <!--Admob Original Id's-->
+     <string name="app_id" translatable="false">ca-app-pub-8392173174252427~8507185101</string>
+     <string name="banner" translatable="false">ca-app-pub-8392173174252427/6122239505</string>
+     <string name="interstitial" translatable="false">ca-app-pub-8392173174252427/7058372062</string>
+     <string name="reward" translatable="false">ca-app-pub-8392173174252427/1824339525</string>
+
+</resources>

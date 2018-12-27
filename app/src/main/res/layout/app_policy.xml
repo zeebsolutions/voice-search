@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:background="#ede7d9"
+    android:layout_height="350dp"
+    android:padding="10dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/linear_layout_top"
+        android:layout_height="210dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Application Permission List!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:id="@+id/destinationtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="fill"
+            android:text="1. App would be accessing INTERNET."
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="2. App would RECORD_AUDIO for voice inputs."
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="3. App would READ_CONTACTS."
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="4. App would use CALL_PHONE."
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="top"
+            android:text="App_policy"
+            android:id="@+id/app_policy"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:text="Version 1.0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="top"
+            android:layout_marginTop="10dp"
+            android:text="More amazing apps:"
+            android:textColor="#847a7a"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/ads_layout"
+        android:layout_below="@+id/linear_layout_top">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/ad_button0"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/gps_route_finde"
+                android:layout_marginRight="10dp"
+                /> <ImageButton
+            android:id="@+id/ad_button1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ad_voice_search"
+            android:layout_marginRight="10dp"
+            />
+            <ImageButton
+                android:id="@+id/ad_button2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ad_voice_navigation"
+                android:layout_marginRight="10dp"
+                />
+            <ImageButton
+                android:id="@+id/ad_button3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ad_tour_world"
+                android:layout_marginRight="10dp"
+                />
+            <ImageButton
+                android:id="@+id/ad_button4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ad_quiz_trivia"
+                android:layout_marginRight="10dp"
+                />
+            <ImageButton
+                android:id="@+id/ad_button5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ad_unit_converter"
+                android:layout_marginRight="10dp"
+                />
+            <ImageButton
+                android:id="@+id/ad_button6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ad_pun_have_fun"
+                android:layout_marginRight="10dp"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        android:layout_below="@+id/ads_layout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#772014"
+            >
+
+            <Button
+                android:id="@+id/Exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="quit"
+                android:textColor="#FFFFFF"
+                android:background="@null"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/line"/>
+            <Button
+                android:id="@+id/feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Feedback"
+                android:background="@null"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/line"/>
+            <Button
+                android:id="@+id/Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:background="@null"
+                android:layout_marginLeft="5dp"
+                android:text="cancel"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

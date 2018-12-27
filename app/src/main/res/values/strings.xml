@@ -9,10 +9,17 @@
 
     <string name="speech_not_supported">Speech not supported on your device</string>
 
+    <string name="app_id" translatable="false">ca-app-pub-5789222679609766~6939961069</string>
+    <string name="banner" translatable="false">ca-app-pub-5789222679609766/7441566081</string>
+    <string name="interstitial" translatable="false">ca-app-pub-5789222679609766/2150668819</string>
+    <string name="reward" translatable="false">ca-app-pub-5789222679609766/9644851736</string>
+
+<!--
     <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
     <string name="reward" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+-->
 
     <string name="suggestion">Suggestion</string>
     <string name="send_to">Choose to Share the app lin</string>

@@ -21,16 +21,23 @@
 
 
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:id="@+id/voice_search"
-        android:src="@drawable/selector_voice_search"
-        android:background="@null"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/title_activity_voice_search"
-        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/buttons_margin"
+            android:background="@drawable/button_background"
+            android:padding="@dimen/buttons_padding"
+            android:id="@+id/voice_search"
+            android:scaleType="fitCenter"
+            style="@style/Widget.AppCompat.ButtonBar"
+            android:textColor="@color/setting_text_color"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/title_activity_voice_search"
+            />
+
+
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
@@ -46,38 +53,45 @@
         android:layout_alignParentBottom="true"
         android:id="@+id/bottom_layout"
         android:orientation="horizontal"
+        android:weightSum="3"
         android:gravity="center">
-        <android.support.design.widget.FloatingActionButton
-            android:layout_width="wrap_content"
+        <ImageButton
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:padding="@dimen/buttons_padding"
+            android:layout_margin="@dimen/buttons_margin"
             android:id="@+id/share"
             android:src="@android:drawable/ic_menu_share"
             android:tint="@android:color/white"
-            android:background="@null"
+            android:background="@color/colorAccent"
             android:scaleType="fitCenter"
             android:onClick="onClick"
             />
-        <android.support.design.widget.FloatingActionButton
-            android:layout_width="wrap_content"
+        <ImageButton
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:padding="@dimen/buttons_padding"
+            android:layout_margin="@dimen/buttons_margin"
             android:id="@+id/rate_us"
             android:src="@android:drawable/star_big_on"
             android:tint="@android:color/white"
-            android:background="@null"
+            android:background="@color/colorAccent"
             android:scaleType="fitCenter"
             android:onClick="onClick"
             />
 
-        <android.support.design.widget.FloatingActionButton
-            android:layout_width="wrap_content"
+        <ImageButton
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:padding="@dimen/buttons_padding"
+            android:layout_margin="@dimen/buttons_margin"
             android:id="@+id/delete_all"
             android:src="@android:drawable/ic_menu_delete"
             android:tint="@android:color/white"
-            android:background="@null"
+            android:background="@color/colorAccent"
             android:scaleType="fitCenter"
             android:onClick="onClick"
             />

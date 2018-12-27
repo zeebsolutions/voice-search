@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
-    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/colorPrimary"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
@@ -30,7 +30,8 @@
             android:layout_gravity="center"
             android:id="@+id/name"
             style="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/list_text_color"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 

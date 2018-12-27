@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.combo.voiceassistant">
+    package="com.tulip.voicesearch">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -14,16 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.VoiceSearch"
+            android:name="com.tulip.voicesearch.activities.VoiceSearch"
             android:label="@string/title_activity_voice_search"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.VoiceAssistant" />
         <activity
-            android:name=".activities.SplashScreen"
+            android:name="com.tulip.voicesearch.activities.SplashScreen"
             android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,11 +36,10 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/app_id" />
 
-        <activity android:name=".activities.MainActivity"/>
+        <activity android:name="com.tulip.voicesearch.activities.MainActivity"/>
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="d8c4d5e8bf9675038444c838928ab90fb78645f3" />
+            android:value="f1b092a4f2764d46abe523afde395073095101b5" />
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

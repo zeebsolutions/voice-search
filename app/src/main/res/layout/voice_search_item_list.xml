@@ -3,35 +3,34 @@
      xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp"
-    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardBackgroundColor="@color/colorAccent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
         android:orientation="vertical">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
             android:id="@+id/voice_search_button"
-            android:src="@drawable/google_search"
-            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
             android:background="@null"
             android:contentDescription="@string/title_activity_voice_search"
-            />
+            android:scaleType="fitCenter"
+            android:src="@drawable/google_search" />
 
         <TextView
 
+            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:id="@+id/name"
-            style="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/list_text_color"
-            android:textStyle="bold"/>
+            android:text="he"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

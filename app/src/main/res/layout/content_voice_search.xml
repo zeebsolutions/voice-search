@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#fafafa"
     tools:context=".activities.VoiceSearch"
     tools:showIn="@layout/activity_voice_search">
 
@@ -22,7 +23,14 @@
             android:id="@+id/switch_suggestion"
             android:text="@string/suggestion"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="25sp" />
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/linn"/>
 
         <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
@@ -30,10 +38,5 @@
             android:padding="5dp"
             android:id="@+id/recycler_view"/>
     </LinearLayout>
-
-
-
-
-
 
 </android.support.v4.widget.NestedScrollView>

@@ -19,45 +19,122 @@
         ads:adSize="SMART_BANNER"
         ads:adUnitId="@string/banner"/>
 
-    <TextView
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="top"
-        android:textAlignment="center"
-        android:layout_above="@id/voice_search"
-        android:text="App_policy"
-        android:onClick="onPolicyClicked"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="20dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-        android:textColor="#0000FF" />
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/banner"
+        android:layout_alignParentLeft="true">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/selector_ad_gps"
+            android:id="@+id/gps"
+            android:background="@null"
+            android:onClick="opengps"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/selector_ad_weather"
+            android:id="@+id/weath"
+            android:onClick="openweather"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="-12dp"
+        android:layout_below="@+id/banner"
+        android:gravity="right"        >
+        <ImageButton
+            android:layout_width="126dp"
+            android:layout_height="40dp"
+            android:src="@drawable/selector_weather"
+            android:id="@+id/weather"
+            android:onClick="oneWeatherClicked"
+            android:background="@null"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:layout_width="118dp"
+            android:layout_height="40dp"
+            android:src="@drawable/selector_news"
+            android:id="@+id/news"
+            android:onClick="onNewsClicked"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:onClick="onPolicyClicked"
+            android:id="@+id/app_policy"
+            android:scaleType="fitCenter"
+            android:src="@drawable/selector_policy" />
+
+    </LinearLayout>
 
 
+    <ImageButton
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/selector_voice_search"
+        android:id="@+id/voice_search"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/aero"
+        android:background="@null"
+        android:id="@+id/aero"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        />
     <Button
+        style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="@dimen/buttons_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:background="@drawable/button_background"
         android:padding="@dimen/buttons_padding"
-        android:id="@+id/voice_search"
         android:scaleType="fitCenter"
-        style="@style/Widget.AppCompat.ButtonBar"
-        android:textColor="@color/setting_text_color"
-        android:textStyle="bold"
-        android:textSize="40sp"
         android:text="@string/title_activity_voice_search"
-        />
-
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/setting_text_color"
+        android:visibility="gone"
+        android:textStyle="bold" />
 
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
         android:layout_above="@+id/bottom_layout"
-        android:id="@+id/recycler_view"/>
+        android:layout_marginBottom="10dp"
+        android:visibility="visible" />
 
 
     <LinearLayout
@@ -77,7 +154,7 @@
             android:id="@+id/share"
             android:src="@android:drawable/ic_menu_share"
             android:tint="@android:color/white"
-            android:background="@color/colorAccent"
+            android:background="#002856"
             android:scaleType="fitCenter"
             android:onClick="onClick"
             />
@@ -90,7 +167,7 @@
             android:id="@+id/rate_us"
             android:src="@android:drawable/star_big_on"
             android:tint="@android:color/white"
-            android:background="@color/colorAccent"
+            android:background="#002856"
             android:scaleType="fitCenter"
             android:onClick="onClick"
             />
@@ -104,7 +181,7 @@
             android:id="@+id/delete_all"
             android:src="@android:drawable/ic_menu_delete"
             android:tint="@android:color/white"
-            android:background="@color/colorAccent"
+            android:background="#002856"
             android:scaleType="fitCenter"
             android:onClick="onClick"
             />

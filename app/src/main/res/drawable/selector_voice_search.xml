@@ -2,7 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:state_pressed="true"
-        android:drawable="@drawable/new_voice_search_s"/>
+        android:drawable="@drawable/voice_button_s"/>
 
-    <item android:drawable="@drawable/new_voice_search"/>
+    <item android:drawable="@drawable/voice_button"/>
 </selector>

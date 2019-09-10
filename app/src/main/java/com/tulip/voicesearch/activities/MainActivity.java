@@ -15,6 +15,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.Window;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -45,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     List<VoiceSearchHistoryModel> models;
     HistoryAdapter adapter;
-
+    ImageButton aero;
     DatabaseHelper helper;
 
     VoiceTasks tasks;
@@ -54,6 +56,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        aero=findViewById(R.id.aero);
+        Animation anim = new AlphaAnimation(0.0f, 1.0f);
+        anim.setDuration(500); //You can manage the blinking time with this parameter
+        anim.setStartOffset(20);
+        anim.setRepeatMode(Animation.REVERSE);
+        anim.setRepeatCount(Animation.INFINITE);
+        aero.startAnimation(anim);
+
 
         if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.M) {
             if (permissions(this))
@@ -263,6 +273,8 @@ public class MainActivity extends AppCompatActivity {
         Button Feedback=view.findViewById(R.id.feedback);
         Button Cancel=view.findViewById(R.id.Cancel);
 */
+        ImageButton adButton00=view.findViewById(R.id.ad_button00);
+        adButton00.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View v) {startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.tulip.weather")));}});
         ImageButton adButton0=view.findViewById(R.id.ad_button0);
         adButton0.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View v) {startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.tulip.routefinder")));}});
         ImageButton adButton1=view.findViewById(R.id.ad_button1);
@@ -341,6 +353,8 @@ public class MainActivity extends AppCompatActivity {
         Button Feedback=view.findViewById(R.id.feedback);
         Button Cancel=view.findViewById(R.id.Cancel);
 */
+        ImageButton adButton00=view.findViewById(R.id.ad_button00);
+        adButton00.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View v) {startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.tulip.weather")));}});
         ImageButton adButton0=view.findViewById(R.id.ad_button0);
         adButton0.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View v) {startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.tulip.routefinder")));}});
         ImageButton adButton1=view.findViewById(R.id.ad_button1);
@@ -398,5 +412,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void onPolicyClicked(View view) { policyDialog();
     }
-
+    public void oneWeatherClicked(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?client=firefox-b-d&q=my+weather+now")));
+    }
+    public void onNewsClicked(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.bbc.com/news")));
+    }
+    public void opengps(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.tulip.routefinder")));
+    }
+    public void openweather(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.tulip.weather")));
+    }
 }

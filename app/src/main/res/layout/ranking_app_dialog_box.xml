@@ -4,7 +4,7 @@
     xmlns:card_view="http://schemas.android.com/tools"
     android:layout_gravity="center"
     android:layout_width="match_parent"
-    android:background="#ede7d9"
+    android:background="#fafafa"
     android:layout_height="310dp"
     android:padding="10dp"
     >
@@ -65,12 +65,20 @@
             android:orientation="horizontal"
             android:gravity="center">
             <ImageButton
+                android:id="@+id/ad_button00"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/waether"
+                android:layout_marginRight="10dp"
+                />
+            <ImageButton
                 android:id="@+id/ad_button0"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:background="@drawable/gps_route_finde"
                 android:layout_marginRight="10dp"
-                /> <ImageButton
+                />
+            <ImageButton
                 android:id="@+id/ad_button1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -132,42 +140,44 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:gravity="center"
-            android:background="#772014"
+            android:background="#012163"
             >
 
             <Button
                 android:id="@+id/Exit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="quit"
-                android:textColor="#FFFFFF"
                 android:background="@null"
-                />
+                android:textColor="#ffffff"
+                android:text="quit"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/line"/>
+
             <Button
                 android:id="@+id/feedback"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:text="Feedback"
                 android:background="@null"
-                />
+                android:text="Feedback"
+                android:textColor="#ffffff"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/line"/>
+
             <Button
                 android:id="@+id/Cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:background="@null"
                 android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:textColor="#ffffff"
                 android:text="cancel"
-                />
+                android:textAppearance="@style/TextAppearance.AppCompat" />
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
